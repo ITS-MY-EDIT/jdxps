@@ -11,20 +11,17 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://telegra.ph/file/0fbd73bd363cd7e2240df.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph//file/1b16324818a55d6321833.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** 𝗦𝝙𝗡𝝙𝗧𝝙𝗡𝗜 || 𝗦𝗣𝝙𝗠​ **\n\n"
+        f"** O% 𓈆🪫𖣔जानवर🚬𝆺꯭𝅥༎ࠫ𖣔🪫𝆺꯭𝅥༎ࠫ **\n\n"
         f"❖ **ᴠᴇʀsɪᴏɴ**: `2.1`\n"
         f"❖ **ᴜᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"❖ **ᴘʏᴛʜᴏɴ**: `{python_version()}`\n"
-        f"❖ **ᴘʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"❖ **sᴜᴘᴘᴏʀᴛ-ᴄʜᴀᴛ**: [4sᴛ ғɪɢʜᴛᴇʀ](t.me/Il_4ST_FIGHTER_ll)\n"
-        f"❖ **ᴜᴘᴅᴀᴛᴇs**: [🇸ᴀ ɴ ᴀ ᴛ ᴀ ɴ ɪ ₰](t.me/ALL_SANATANI_BOT)\n"
-        f"❖ **sɪʀ**: [sᴀᴄʜɪɴ](t.me/V_VIP_OWNER)"        
+        f"❖ **ᴘʏʀᴏɢʀᴀᴍ**: `{__version__}` "
     )
 
 @Client.on_message(
